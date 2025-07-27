@@ -11,11 +11,13 @@
     <body>
         <header>
             <nav>
-                <ul>
-                    <li><strong>>1 Donation</strong></li>
-                    <li>>2 Confirmation</li>
-                    <li>>3 Thank you!</li>
-                </ul>
+                <div class = navigation>
+                    <ul>
+                        <li><strong>>1 Donation</strong></li>
+                        <li>>2 Confirmation</li>
+                        <li>>3 Thank you!</li>
+                    </ul>
+                </div>
             </nav>
         </header>
 
@@ -40,7 +42,7 @@
                 <label for = "address2">Address 2</label><input type="text" id="address2">
             </div>
             <div class = "form-group">
-                <label for = "city">City<sup>*</sup></label><input type="text" id="city"  required>
+                <label for = "city">City<sup>*</sup></label><input type="text" id="city" required>
             </div>
             <div class = "form-group">
                 <label for = "state">State<sup>*</sup></label> 
@@ -49,6 +51,134 @@
                 <option value = "Dhaka">Dhaka</option>
                 <option value = "Chittagong">Chittagong</option>
                 </select>
+            </div>
+            <div class = "form-group">
+                <label for="zip-code">Zip Code<sup>*</sup></label><input type="text" id="zip-code" required>
+            </div>
+            <div class = "form-group">
+                <label for = "country">Country<sup>*</sup></label> 
+                <select>
+                <option value = "value">Select a country</option>
+                <option value = "Bangladesh">Bangladesh</option>
+                <option value = "Nepal">Nepal</option>
+                </select>
+            </div>
+            <div class = "form-group">
+                <label for="phone">Phone</label><input type="text" id="phone">
+            </div>
+            <div class = "form-group">
+                <label for="fax">Fax</label><input type="text" id="fax">
+            </div>
+            <div class = "form-group">
+                <label for="email">Email<sup>*</sup></label><input type="email" id="email" required>
+            </div>
+            <div class = "form-group">
+                <label for="donation-amount">Donation Amount<sup>*</sup><br>
+                (Check a button or type in your amount)</label>
+                <input type = "radio" name="reason" required>None
+                <input type = "radio" name="reason" required>$50
+                <input type = "radio" name="reason" required>$75
+                <input type = "radio" name="reason" required>$100
+                <input type = "radio" name="reason" required>$250
+                <input type = "radio" name="reason" required>Other
+            </div>
+            <div class = "form-group1">
+                <label for="other-amount">Other Amount $</label><input type="text" id="amount">
+            </div>
+            <div class = "form-group">
+                <label for="donation">Recurring Donation<br>(Check if yes)</label>
+                <input type = "checkbox" required> I am intrested in giving on a regular basis.
+            </div>
+            <div class = "form-group1">
+                <label for="details">Monthly Credit Card $</label><input type="text" id="amount">For <input type="number" id="date">Months
+            </div>
+
+        <section>
+            <strong>Honorarium and Memorial Donation Information</strong>
+        </section>
+            <div class="form-group">
+                <label for="details">I would like to make this donation</label>
+                <input type = "radio" name="reason" required>To Honor<br>
+                <input type = "radio" name="reason" required>In Memory of
+            </div>
+            <div class="form-group">
+                <label for="name">Name</label><input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="acknowledge">Acknowledge Donation to</label><input type="text" id="donation">
+            </div>
+            <div class = "form-group">
+                <label for = "address">Address</label><input type="text" id="address">
+            </div>
+            <div class = "form-group">
+                <label for = "city">City</label><input type="text" id="city" required>
+            </div>
+            <div class = "form-group">
+                <label for = "state">State</label> 
+                <select>
+                <option value = "value">Select a state</option>
+                <option value = "Dhaka">Dhaka</option>
+                <option value = "Chittagong">Chittagong</option>
+                </select>
+            </div>
+            <div class = "form-group">
+                <label for="zip-code">Zip</label><input type="text" id="zip-code" required>
+            </div>
+        <section>
+            <strong>Additional Information</strong>
+        </section>
+            <div class="details">
+                <p>Please enter your name, company or organization 
+                    as you whould like it to appear in our publication:
+                </p>
+            </div>
+            <div class="form-group">
+                <label for="name">Name</label><input type="text" id="name" required>
+            </div>
+            <div class="details">
+                <input type = "checkbox" required>I would like my gift to remain anonymous.<br>
+                <input type = "checkbox" required>My employer offers a matching gift program. I will mail the matching gift form.<br>
+                <input type = "checkbox" required>Please save the cost of acknowledging this gift by not mailing a thank you letter.
+            </div>
+            <div class = "form-group">
+                <label for="comment">Comments<br>
+                (Please type any questions or feedbacks here)</label>
+                <div class ="commentbox">
+                    <input type="text" id="comment">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for ="question">How may we contact you?</label>
+                <input type = "checkbox" required> Email <br>
+                <input type = "checkbox" required> Postal Mail <br>
+                <input type = "checkbox" required> Telephone <br>
+                <input type = "checkbox" required> Fax <br>
+            </div>
+
+            <div class = "light">
+                <p>I would like to receive newsletters and informations about special events by:</p>
+            </div>
+
+            <div class = "form-group2">
+                <input type = "checkbox" required> Email <br>
+                <input type = "checkbox" required> Postal Mail <br>
+            </div>
+
+            <div class="details">
+                <input type = "checkbox" required>I would like information about volunteering with the.<br>
+            </div>
+
+            <br>
+
+            <div class="button-group">
+                <button type="reset" class="btn-reset">Reset</button>
+                <button type="continue" class="btn-continue">Continue</button>
+            </div>
+
+            <div class="details">
+                <p>Donate online with confidence. You are on a secure server.<br>
+                If you have any problem or questions, please contact support.</p>
             </div>
 
         </form>
