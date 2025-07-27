@@ -1,0 +1,28 @@
+/* .header{
+
+} */
+.form-group{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form-group label{
+    flex-basis: 100px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+section{
+    font-size: 20px;
+    color: red;
+}
+
+sup{
+    color:red;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
