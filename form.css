@@ -34,25 +34,29 @@
     text-align: right;
     margin-right: 10px;
 }
+
 .form-group .commentbox{
     max-width: 40px;
     
 }
+
 .light{
     color: silver;
 }
+
 .button-group{
     margin-left: 200px;
     
 }
 
 .textarea{
-    width:100%
+    width:100%;
 }
 
 button{
     border-radius: 70px;
 }
+
 section{
     font-size: 20px;
     color: red;
