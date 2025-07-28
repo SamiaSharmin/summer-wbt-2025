@@ -46,6 +46,10 @@
     
 }
 
+.textarea{
+    width:100%
+}
+
 button{
     border-radius: 70px;
 }
