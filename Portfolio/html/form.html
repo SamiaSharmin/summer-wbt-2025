@@ -25,41 +25,42 @@
             </nav>
         </header>
 
-        <form method = "GET">
+        <form method = "GET" action="userdetails.html">
             <div class = "form-group">
                 <label for = "first-name"> First Name: </label>
-                <input type = "text" name ="first name" required>
+                <input type = "text" name = "firstName" required>
             </div>
 
             <div class = "form-group">
                 <label for = "last-name">Last Name: </label>
-                <input type = "text" name="last name" required>
+                <input type = "text" name ="lastName" required>
             </div>
 
             <div class = "form-group">
                 <label for = "email">Email: </label>
-                <input type = "text" name="email" required>
+                <input type = "text" name ="email" required>
             </div>
 
             <div class = "form-group">
                 <label for ="text"> Reason for contact:</label>
-                <input type = "radio" name="reason" required>Project<br>
-                <input type = "radio" name="reason" required>Thesis<br>
-                <input type = "radio" name="reason" required>Meet and Greet<br>
+                <input type = "radio" name = "reason" value="Project" required>Project<br>
+                <input type = "radio" name = "reason" value="Thesis" required>Thesis<br>
+                <input type = "radio" name = "reason" value="Meet and Greet" required>Meet and Greet<br>
             </div>
 
             <div class = "form-group">
                 <label for="text">Service:</label>
-                <input type = "checkbox" required>App development<br>
-                <input type = "checkbox" required>Web design<br>
-                <input type = "checkbox" required>SEO<br>
+                <input type = "checkbox" name = "service" value="App development">App development<br>
+                <input type = "checkbox" name = "service" value="Web design">Web design<br>
+                <input type = "checkbox" name = "service" value="SEO">SEO<br>
             </div>
 
             <div class ="form-group">
-                <label for ="text">Offering job:</label>
-                <select>
+                <label for ="text">Job offering:</label>
+                <select name="job">
                 <option value = "HR">HR</option>
                 <option value = "CEO">CEO</option>
+                <option value = "CEO">Manager</option>
                 </select>
             </div>
 
